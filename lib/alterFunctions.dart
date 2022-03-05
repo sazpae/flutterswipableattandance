@@ -12,9 +12,9 @@ actions(BuildContext context, String name, type) {
           title: Text(
             ' ${type} ${name}',
             style: TextStyle(
-                color: type == '-Present'
+                color: type == 'is Present'
                     ? Colors.green
-                    : type == '-Absent'
+                    : type == 'is Absent'
                         ? Colors.red
                         : Colors.black),
           ),
