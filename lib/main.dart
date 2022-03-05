@@ -106,8 +106,6 @@ class _HomeState extends State<Home> {
   }
 }
 
-void actions(BuildContext context, String nam, String s) {}
-
 class Content {
   final String? text;
   Content({this.text});
