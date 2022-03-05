@@ -10,8 +10,13 @@ actions(BuildContext context, String name, type) {
 
         return AlertDialog(
           title: Text(
-            'You $type $name',
-            style: TextStyle(color: Colors.red),
+            'You ${type} ${name}',
+            style: TextStyle(
+                color: type == 'Present'
+                    ? Colors.green
+                    : type == 'Absent'
+                        ? Colors.red
+                        : Colors.black),
           ),
         );
       });
