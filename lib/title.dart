@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('Attandance'),
             centerTitle: true,
-            backgroundColor: Colors.blue,
+            backgroundColor: Colors.black,
           ),
         ));
   }
