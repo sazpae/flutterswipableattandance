@@ -3,6 +3,7 @@ import 'package:swipe_cards/swipe_cards.dart';
 import 'package:flutter_tinder/constants.dart';
 import 'package:flutter_tinder/alterFunctions.dart';
 import 'package:flutter_tinder/appBar.dart';
+import 'package:flutter_tinder/title.dart';
 
 void main() {
   runApp(new MyApp());
@@ -51,7 +52,7 @@ class _HomeState extends State<Home> {
             actions(context, names[i], 'Absent');
           },
           superlikeAction: () {
-            actions(context, names[i], 'Absent From Many Days');
+            actions(context, names[i], 'Very Attentive');
           }));
     }
     _matchEngine = MatchEngine(swipeItems: _swipeItems);
