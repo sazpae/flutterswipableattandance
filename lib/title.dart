@@ -11,6 +11,8 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           appBar: AppBar(
             title: Text('Attandance'),
+            centerTitle: true,
+            backgroundColor: Color.fromARGB(255, 19, 87, 133),
           ),
         ));
   }
