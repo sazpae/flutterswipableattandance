@@ -5,7 +5,7 @@ import 'package:flutter_tinder/alterFunctions.dart';
 import 'package:flutter_tinder/appBar.dart';
 
 void main() {
-  runApp(new MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -16,13 +16,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(brightness: Brightness.light),
-      home: Home(),
+      home: Home(title: 'Attandance'),
     );
   }
 }
 
 class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
+  const Home({Key? key, required String title}) : super(key: key);
 
   @override
   State<Home> createState() => _HomeState();
