@@ -3,8 +3,10 @@ import 'package:swipe_cards/swipe_cards.dart';
 import 'package:flutter_tinder/constants.dart';
 import 'package:flutter_tinder/alterFunctions.dart';
 import 'package:flutter_tinder/appBar.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(new MyApp());
 }
 
