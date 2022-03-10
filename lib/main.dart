@@ -88,7 +88,7 @@ class _HomeState extends State<Home> {
                           names[index],
                           style: TextStyle(
                               fontSize: 32,
-                              color: Colors.white
+                              color: Colors.white,
                               fontWeight: FontWeight.bold),
                         )
                       ],
