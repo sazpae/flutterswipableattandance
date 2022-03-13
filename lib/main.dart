@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
   get images => null;
   @override
   void initState() {
-    for (int i = 0; i < names.length; i++) {
+    for (int i = names.length - 1; i > 0; i--) {
       _swipeItems.add(SwipeItem(
           content: Content(text: names[i]),
           likeAction: () {
